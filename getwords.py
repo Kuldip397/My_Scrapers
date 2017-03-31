@@ -1,4 +1,4 @@
-                					####Python Script to get the words and it's meaning####
+                			####Python Script to get the words and it's meaning####
 
 import requests
 import bs4 as bs
@@ -13,7 +13,7 @@ soup = bs.BeautifulSoup(req.content,'lxml')
 contents = soup.find('div',{'class':'content-wrapper'})
 contents_entry = contents.find('ol',{'class':'wordlist notesView'}).find_all('li')
 
-									####creating the file of words and meaning######## 
+					    ####creating the file of words and meaning#####
 
 wordfile = open('words.text','a')
 for entry in contents_entry:
