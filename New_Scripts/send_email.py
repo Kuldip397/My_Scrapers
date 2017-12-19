@@ -19,7 +19,7 @@ def get_emails(filename):
 host = "smtp.gmail.com"
 port = 587
 username = "kkvkicktheworldup7@gmail.com"
-password = "kkvrbi#cr77"
+password = "%%%%%"
 
 to_list = []
 file_contents = get_emails("send_email_to.txt")
